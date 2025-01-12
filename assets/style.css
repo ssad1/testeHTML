@@ -12,8 +12,8 @@ body {
     padding: 10px;
     display:flex;
     justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 ul {
     display: flex;
@@ -24,3 +24,25 @@ li {
     padding-left: 100px;
     list-style: none;
 }	
+#carousel{
+    background-color: blue;
+}
+@media (max-width: 640px){
+    .container {
+        font-size: 0.9em;
+        flex-direction: column;
+    }
+    .logo {
+        width: 100%;
+    }
+    #logo {
+        width: 100%;
+    }
+    .texto {
+        width: 100%;
+    }
+    #menu li{
+       padding: 0%;
+       width: 100%;
+    }
+}
